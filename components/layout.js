@@ -6,7 +6,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = 'Yohan'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
           name="description"
           content="Learn how to build a personal website using Next.js"
         />
-        <meta
+        <meta 
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
             siteTitle
